@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C11CC6F1987E6E700AE814D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C11CC6E1987E6E700AE814D /* Media.xcassets */; };
+		4CA34E451982ECDF007C3CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA34E441982ECDF007C3CEA /* Main.storyboard */; };
 		4CCBFDC4197FF1B700042731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC3197FF1B700042731 /* Foundation.framework */; };
 		4CCBFDC6197FF1B700042731 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC5197FF1B700042731 /* CoreGraphics.framework */; };
 		4CCBFDC8197FF1B700042731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC7197FF1B700042731 /* UIKit.framework */; };
 		4CCBFDCE197FF1B700042731 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBFDCC197FF1B700042731 /* InfoPlist.strings */; };
 		4CCBFDD0197FF1B700042731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFDCF197FF1B700042731 /* main.m */; };
 		4CCBFDD4197FF1B700042731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFDD3197FF1B700042731 /* AppDelegate.m */; };
-		4CCBFDD6197FF1B700042731 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBFDD5197FF1B700042731 /* Images.xcassets */; };
 		4CCBFDDD197FF1B800042731 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDDC197FF1B800042731 /* XCTest.framework */; };
 		4CCBFDDE197FF1B800042731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC3197FF1B700042731 /* Foundation.framework */; };
 		4CCBFDDF197FF1B800042731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC7197FF1B700042731 /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C11CC6E1987E6E700AE814D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		4CA34E441982ECDF007C3CEA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		4CCBFDC0197FF1B700042731 /* TaskTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCBFDC3197FF1B700042731 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CCBFDC5197FF1B700042731 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,7 +45,6 @@
 		4CCBFDD1197FF1B700042731 /* TaskTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskTracker-Prefix.pch"; sourceTree = "<group>"; };
 		4CCBFDD2197FF1B700042731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CCBFDD3197FF1B700042731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CCBFDD5197FF1B700042731 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CCBFDDB197FF1B800042731 /* TaskTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCBFDDC197FF1B800042731 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4CCBFDE4197FF1B800042731 /* TaskTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskTrackerTests-Info.plist"; sourceTree = "<group>"; };
@@ -107,9 +109,10 @@
 		4CCBFDC9197FF1B700042731 /* TaskTracker */ = {
 			isa = PBXGroup;
 			children = (
+				4CA34E441982ECDF007C3CEA /* Main.storyboard */,
 				4CCBFDD2197FF1B700042731 /* AppDelegate.h */,
 				4CCBFDD3197FF1B700042731 /* AppDelegate.m */,
-				4CCBFDD5197FF1B700042731 /* Images.xcassets */,
+				4C11CC6E1987E6E700AE814D /* Media.xcassets */,
 				4CCBFDCA197FF1B700042731 /* Supporting Files */,
 			);
 			path = TaskTracker;
@@ -191,6 +194,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Brigham & Women's Hospital";
 				TargetAttributes = {
+					4CCBFDBF197FF1B700042731 = {
+						DevelopmentTeam = C7M2HT262Z;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
 					4CCBFDDA197FF1B800042731 = {
 						TestTargetID = 4CCBFDBF197FF1B700042731;
 					};
@@ -219,8 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA34E451982ECDF007C3CEA /* Main.storyboard in Resources */,
+				4C11CC6F1987E6E700AE814D /* Media.xcassets in Resources */,
 				4CCBFDCE197FF1B700042731 /* InfoPlist.strings in Resources */,
-				4CCBFDD6197FF1B700042731 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,10 +371,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaskTracker/TaskTracker-Prefix.pch";
 				INFOPLIST_FILE = "TaskTracker/TaskTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +388,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TaskTracker/TaskTracker-Prefix.pch";
 				INFOPLIST_FILE = "TaskTracker/TaskTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +459,7 @@
 				4CCBFDEE197FF1B800042731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCBFDEF197FF1B800042731 /* Build configuration list for PBXNativeTarget "TaskTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +468,7 @@
 				4CCBFDF1197FF1B800042731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
