@@ -20,6 +20,8 @@
 		4CCBFDDF197FF1B800042731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCBFDC7197FF1B700042731 /* UIKit.framework */; };
 		4CCBFDE7197FF1B800042731 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBFDE5197FF1B800042731 /* InfoPlist.strings */; };
 		4CCBFDE9197FF1B800042731 /* TaskTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBFDE8197FF1B800042731 /* TaskTrackerTests.m */; };
+		96FE7EDB1988672300BA4D91 /* XYZSignUpControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FE7EDA1988672300BA4D91 /* XYZSignUpControllerViewController.m */; };
+		96FE7EDE1988683D00BA4D91 /* XYZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FE7EDD1988683D00BA4D91 /* XYZLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		4CCBFDE4197FF1B800042731 /* TaskTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		4CCBFDE6197FF1B800042731 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CCBFDE8197FF1B800042731 /* TaskTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTrackerTests.m; sourceTree = "<group>"; };
+		96FE7ED91988672300BA4D91 /* XYZSignUpControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSignUpControllerViewController.h; sourceTree = "<group>"; };
+		96FE7EDA1988672300BA4D91 /* XYZSignUpControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSignUpControllerViewController.m; sourceTree = "<group>"; };
+		96FE7EDC1988683D00BA4D91 /* XYZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZLoginViewController.h; sourceTree = "<group>"; };
+		96FE7EDD1988683D00BA4D91 /* XYZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				4CA34E441982ECDF007C3CEA /* Main.storyboard */,
+				96FE7EDC1988683D00BA4D91 /* XYZLoginViewController.h */,
+				96FE7EDD1988683D00BA4D91 /* XYZLoginViewController.m */,
+				96FE7ED91988672300BA4D91 /* XYZSignUpControllerViewController.h */,
+				96FE7EDA1988672300BA4D91 /* XYZSignUpControllerViewController.m */,
 				4CCBFDD2197FF1B700042731 /* AppDelegate.h */,
 				4CCBFDD3197FF1B700042731 /* AppDelegate.m */,
 				4C11CC6E1987E6E700AE814D /* Media.xcassets */,
@@ -252,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCBFDD4197FF1B700042731 /* AppDelegate.m in Sources */,
+				96FE7EDB1988672300BA4D91 /* XYZSignUpControllerViewController.m in Sources */,
+				96FE7EDE1988683D00BA4D91 /* XYZLoginViewController.m in Sources */,
 				4CCBFDD0197FF1B700042731 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
